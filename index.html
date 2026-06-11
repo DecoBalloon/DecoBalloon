@@ -79,18 +79,37 @@
       color: white;
     }
   </style>
+  .hero {
+  text-align: center;
+  padding: 60px 20px 20px;
+  background: linear-gradient(135deg, #ff6fb1, #7bdff2);
+  color: white;
+}
+
+.cover {
+  margin-top: 25px;
+}
+
+.cover img {
+  width: 100%;
+  max-width: 900px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
 </head>
 
 <body>
 
-<header>
-<h1>DecoBalloon 🎈</h1>
+<header class="hero">
+  <h1>DecoBalloon 🎈</h1>
   <p>Priča koja traje duže od same proslave</p>
+
+  <div class="cover">
+    <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce" alt="DecoBalloon cover">
+  </div>
 </header>
-<div class="cover">
-  <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce" alt="DecoBalloon cover">
-</div>
-<section>
   <h2>Naše usluge</h2>
   <div class="grid">
     <div class="card">
